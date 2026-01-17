@@ -60,6 +60,7 @@ header nav a:hover {
     color: black;
     border-radius: 5px;
     font-weight: bold;
+    display: inline-block;
 }
 
 .btn:hover {
@@ -93,6 +94,26 @@ h2 {
     text-align: center;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Certifications */
+.cert-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.cert-card h3 {
+    color: #4e4376;
+    margin-bottom: 10px;
+}
+
+.cert-card p {
+    margin: 6px 0;
 }
 
 /* Projects */
